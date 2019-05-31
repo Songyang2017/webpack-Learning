@@ -10,6 +10,10 @@ module.exports = {
     //输出文件都存放到dist文件夹下
     path: path.resolve(__dirname, './dist')
   },
+  devServer: {
+    host: 'localhost',
+    port: 8081
+  },
   module: {
     rules: [
       {
